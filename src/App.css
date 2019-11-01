@@ -1,22 +1,56 @@
-.App {
-  text-align: center;
+.logo {
+  height: 50px;
+  width:auto
 }
-
-.App-logo {
-  height: 40vmin;
+.sign {
+  margin:  8px;
 }
+.image-slide{
+height: 500px !important;
+width:auto;
+padding-top:10px ;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.item {
+  width: 240px !important;
+  margin:15px
+}
+.side {
+  padding-top:10px
+}
+.ads  {
+  padding:20px !important;
+  color: red
+}
+.product-image {
+  height: 200px !important;
+  width: 300px !important
+}
+.card {
+  margin:10px !important;
+  border-radius: 5px !important;
+}
+.btnad{
+  width: 25%;
+}
+header{
+  margin-bottom: 75px;
+}
+.link {
+  text-decoration: none;
+}
+.productImage{
+  height:200px !important;
+  width:auto;
+  border-radius: 5px;
+  margin-top:25px
+}
+.userContact{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.user{
+  width: 40%;
+  padding: 10px;
 }
