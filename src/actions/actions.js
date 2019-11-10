@@ -1,4 +1,4 @@
-import {CREATE_PRODUCT, ADD_SUGG} from './types';
+import {CREATE_PRODUCT, ADD_SUGG, FILTER_CAFILTER_CATEGORY} from './types';
 
 export const addProduct = newProduct => {
     return {
@@ -11,5 +11,12 @@ export const addSugg = newSugg => {
     return {
         type: ADD_SUGG,
         payload: newSugg
+    }
+}
+
+export const filterCategory= category => {
+    return {
+        type: ADD_SUGG,
+        payload: category
     }
 }

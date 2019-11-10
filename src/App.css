@@ -45,12 +45,9 @@ header{
   border-radius: 5px;
   margin-top:25px
 }
-.userContact{
-  justify-content: center;
-  align-content: center;
-}
+
 
 .user{
-  width: 40%;
+  width: 30%;
   padding: 10px;
 }

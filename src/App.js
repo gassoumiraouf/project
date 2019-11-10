@@ -8,7 +8,8 @@ import CreateAd from './components/createAd'
 import ProductDetails from './components/ProductDetails'
 import SignIn from './components/signIn';
 import SignUp from'./components/signUp';
-
+import Contact from './components/contact';
+import AboutUS from './components/aboutUs'
 
 
 function App() {
@@ -22,8 +23,10 @@ function App() {
       <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link > <Link to ='/'>Home</Link></Nav.Link>
-      <Nav.Link href="#features">about Us</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
+      <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}}
+     to ='/about-us'>about Us</Link></Nav.Link>
+      <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}}
+     to ='/contact'>Contact</Link></Nav.Link>
     </Nav>
      <Button className='sign btnad' variant="danger"><Link style={{ color: 'inherit', textDecoration: 'inherit'}}
        to='/createAd'>Create Ad</Link></Button> 
@@ -32,8 +35,8 @@ function App() {
       <Button className='sign' variant="primary"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} 
       to ='/signIn'>Sign In </Link></Button>
        
-      <FormControl type="text" placeholder="Search product" className="mr-sm-2" />
-      <Button variant="outline-info">Search</Button>
+     
+      
     </Form></Navbar.Collapse>
   </Navbar>
   </header>
@@ -43,6 +46,8 @@ function App() {
     <div>
       <Route exact path='/' component={Home}></Route>
       <Route path='/createAd' component={CreateAd}></Route>
+      <Route path='/about-us' component={AboutUS}></Route>
+      <Route path='/contact' component={Contact}></Route>
       <Route exact path='/signIn' component ={SignIn}></Route>
       <Route path='/signIn/signUp' component ={SignUp}></Route>
       <Route path='/prod/:id' component ={ProductDetails}></Route>

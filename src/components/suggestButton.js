@@ -33,11 +33,11 @@ render(){
             <div className="modal-body">
             <div class="form-group">
               <label for="exampleFormControlInput1">Name</label>
-              <input type="text" class="form-control" name="name" id="exampleFormControlInput1" onChange={this.handleChange} placeholder="name@example.com"/>
+              <input type="text" class="form-control" name="name" id="exampleFormControlInput1" onChange={this.handleChange} placeholder="your name ..."/>
             </div>
             <div class="form-group">
               <label for="exampleFormControlInput1">Phone Number</label>
-              <input type="text" class="form-control" name="phone" id="exampleFormControlInput1" onChange={this.handleChange} placeholder="name@example.com"/>
+              <input type="text" class="form-control" name="phone" id="exampleFormControlInput1" onChange={this.handleChange} placeholder="your phone number"/>
             </div>
             <div class="form-group">
               <label for="exampleFormControlInput1">Email address</label>
@@ -45,7 +45,7 @@ render(){
             </div>
             <div class="form-group">
               <label for="exampleFormControlInput1">Description</label>
-              <input type="text" class="form-control" name="description" id="exampleFormControlInput1" onChange={this.handleChange} placeholder="name@example.com"/>
+              <input type="text" class="form-control" name="description" id="exampleFormControlInput1" onChange={this.handleChange} placeholder="description"/>
             </div>
             </div>
             <div className="modal-footer">

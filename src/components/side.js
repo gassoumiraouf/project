@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
-import {ListGroup} from 'react-bootstrap';
+import {ListGroup, FormControl} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faCar, faTrademark, faMobile, faTshirt } from '@fortawesome/free-solid-svg-icons';
 
  
-// Be sure to include styles at some point, probably during your bootstraping
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 class Side extends Component {
     constructor(props) {
@@ -30,7 +29,8 @@ class Side extends Component {
     Other
   </ListGroup.Item >
   
-</ListGroup>
+</ListGroup> <br/>
+<FormControl type="text" placeholder="Search product" className="mr-sm-2" />
         </div> );
     }
 }
